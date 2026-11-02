@@ -1,0 +1,36 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# AWS credentials
+.aws/
+credentials
+*.pem
+
+# Kubernetes
+kubeconfig
+kubeconfig.*
+*.kubeconfig
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+secrets/
+*.secret
+
+# Logs
+*.log
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
